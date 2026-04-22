@@ -52,7 +52,7 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Build foss Debug APK
-        run: gradle assembleFossDebug --no-daemon --stacktrace
+        run: gradle assembleFossDebug --no-daemon --no-configuration-cache --stacktrace
 
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
