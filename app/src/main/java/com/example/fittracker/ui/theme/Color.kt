@@ -13,7 +13,7 @@ val Green90 = Color(0xFF89F8C4)
 val Orange10 = Color(0xFF350E00)
 val Orange20 = Color(0xFF581D00)
 val Orange30 = Color(0xFF7D2D00)
-val Orange40 = Color(0xFF A43F00)
+val Orange40 = Color(0xFFA43F00)
 val Orange80 = Color(0xFFFFB68F)
 val Orange90 = Color(0xFFFFDBC9)
 

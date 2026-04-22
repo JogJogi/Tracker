@@ -6,13 +6,10 @@ import com.example.fittracker.data.db.entity.StepsDaily
 import com.example.fittracker.data.db.entity.StepsHourly
 import com.example.fittracker.data.preferences.AppPreferences
 import com.example.fittracker.data.repository.StepsRepository
-import com.example.fittracker.data.sensor.StepCounterManager
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 import kotlinx.datetime.DatePeriod
 import kotlinx.datetime.TimeZone
