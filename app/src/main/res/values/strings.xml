@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitTracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_workouts">Workouts</string>
+    <string name="nav_nutrition">Nutrition</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_title">Dashboard</string>
+    <string name="home_recent_workouts">Recent Workouts</string>
+
+    <!-- Steps -->
+    <string name="steps_title">Steps</string>
+    <string name="steps_today">Today\'s Steps</string>
+    <string name="steps_goal_of">/ %1$s goal</string>
+    <string name="steps_weekly">Last 7 Days</string>
+    <string name="steps_weekly_total">Weekly Total</string>
+    <string name="steps_no_data">No step data yet</string>
+
+    <!-- Workout -->
+    <string name="workout_record_title">Record Workout</string>
+    <string name="workout_start_new">New Workout</string>
+    <string name="workout_no_workouts">No workouts yet. Start your first!</string>
+    <string name="workout_distance">Distance</string>
+    <string name="workout_duration">Duration</string>
+    <string name="workout_pace">Pace</string>
+    <string name="workout_heart_rate">Heart Rate</string>
+    <string name="workout_avg_hr">Avg. Heart Rate</string>
+    <string name="workout_max_hr">Max Heart Rate</string>
+    <string name="workout_calories">Calories</string>
+    <string name="workout_elevation">Elevation Gain</string>
+
+    <!-- Nutrition -->
+    <string name="nutrition_add_food">Add Food</string>
+    <string name="nutrition_today_summary">Today\'s Nutrition</string>
+    <string name="nutrition_no_entries">No food logged today. Tap + to add.</string>
+    <string name="nutrition_kcal">kcal</string>
+    <string name="nutrition_protein">Protein</string>
+    <string name="nutrition_carbs">Carbs</string>
+    <string name="nutrition_fat">Fat</string>
+
+    <!-- Settings -->
+    <string name="settings_section_goals">Goals</string>
+    <string name="settings_section_profile">Profile</string>
+    <string name="settings_section_app">App</string>
+    <string name="settings_step_goal">Daily Step Goal</string>
+    <string name="settings_calorie_goal">Daily Calorie Goal</string>
+    <string name="settings_height">Height</string>
+    <string name="settings_weight">Weight</string>
+    <string name="settings_age">Age</string>
+    <string name="settings_use_metric">Metric Units</string>
+    <string name="settings_auto_pause">Auto-Pause GPS Workout</string>
+    <string name="settings_health_connect">Sync with Health Connect</string>
+
+    <!-- Notifications -->
+    <string name="notification_workout_title">Workout in progress</string>
+    <string name="notification_hr_title">Heart Rate Monitor</string>
+    <string name="notification_hr_text">Monitoring heart rate</string>
+
+    <!-- Actions -->
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_export">Export</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Widgets -->
+    <string name="widget_steps_label">Daily Steps</string>
+    <string name="widget_workout_label">Last Workout</string>
+</resources>
