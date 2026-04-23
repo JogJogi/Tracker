@@ -14,11 +14,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DirectionsRun
-import androidx.compose.material.icons.filled.DirectionsWalk
 import androidx.compose.material.icons.filled.Restaurant
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -35,7 +31,6 @@ import com.example.fittracker.R
 import com.example.fittracker.data.db.entity.Activity
 import com.example.fittracker.ui.components.StepProgressCard
 import com.example.fittracker.ui.components.WorkoutSummaryCard
-import com.example.fittracker.util.FormatUtil
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable

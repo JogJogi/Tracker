@@ -109,7 +109,7 @@
 
         <!-- Daily steps widget (2×2) -->
         <receiver
-            android:name=".ui.widget.StepsWidget"
+            android:name=".ui.widget.StepsWidgetReceiver"
             android:exported="true"
             android:label="@string/widget_steps_label">
             <intent-filter>
@@ -122,7 +122,7 @@
 
         <!-- Last workout widget (4×2) -->
         <receiver
-            android:name=".ui.widget.WorkoutWidget"
+            android:name=".ui.widget.WorkoutWidgetReceiver"
             android:exported="true"
             android:label="@string/widget_workout_label">
             <intent-filter>

@@ -3,7 +3,6 @@ package com.example.fittracker.ui.screens.home
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.fittracker.data.db.entity.Activity
-import com.example.fittracker.data.db.entity.StepsDaily
 import com.example.fittracker.data.preferences.AppPreferences
 import com.example.fittracker.data.repository.ActivityRepository
 import com.example.fittracker.data.repository.StepsRepository

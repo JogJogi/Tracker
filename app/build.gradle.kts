@@ -136,9 +136,6 @@ dependencies {
     implementation(libs.zxing.android.embedded)
     implementation(libs.zxing.core)
 
-    // GPX Export
-    implementation(libs.jpx)
-
     // CSV Export
     implementation(libs.commons.csv)
 
