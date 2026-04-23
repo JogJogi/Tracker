@@ -28,18 +28,16 @@ jobs:
           gradle-version: '8.11.1'
           cache-read-only: false
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          accept-android-sdk-licenses: true
-          log-accepted-android-sdk-licenses: false
+      # ubuntu-latest runners ship Android SDK at $ANDROID_HOME.
+      # We just need to accept licenses and install the required platform.
+      - name: Accept Android SDK licenses
+        run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
 
-      - name: Install SDK platforms and build tools
+      - name: Install Android platform 36 and build tools
         run: |
-          "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager" \
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
             "platforms;android-36" \
-            "build-tools;35.0.0" \
-            "platform-tools"
+            "build-tools;35.0.0"
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
