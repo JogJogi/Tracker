@@ -36,7 +36,7 @@ jobs:
 
       - name: Install SDK platforms and build tools
         run: |
-          sdkmanager --install \
+          "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager" \
             "platforms;android-36" \
             "build-tools;35.0.0" \
             "platform-tools"
